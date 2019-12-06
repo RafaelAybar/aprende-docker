@@ -32,9 +32,9 @@ En este esquema se aprecian los ámbitos a los que compete esta "filosofía". [V
 
 Casos donde DevOps carece de sentido:
 
-    * Infraestructura y aplicaciones con grado de complejidad mínimo. Por ejemplo una web que sólo sirve html con 4 visitas al día.
+* Infraestructura y aplicaciones con grado de complejidad mínimo. Por ejemplo una web que sólo sirve html con 4 visitas al día.
 
-    * Infraestructura y apliciones obsoletas. Es abusrdo utilizar metodologías distintas cuando ni la infraestructura ni la aplicación está
+* Infraestructura y apliciones obsoletas. Es abusrdo utilizar metodologías distintas cuando ni la infraestructura ni la aplicación está
     preparada para ello, por ejemplo sistemas en producción de un banco que están en activo desde 1980.
 
 ## Aislamiento de recursos, contenedores versus virtualización
