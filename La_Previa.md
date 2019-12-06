@@ -36,3 +36,15 @@ Casos donde DevOps carece de sentido:
 
     * Infraestructura y apliciones obsoletas. Es abusrdo utilizar metodologías distintas cuando ni la infraestructura ni la aplicación está
     preparada para ello, por ejemplo sistemas en producción de un banco que están en activo desde 1980.
+
+## Aislamiento de recursos, contenedores versus virtualización
+
+    Es muy importante que sólo se utilicen recursos de la máquina cuando realmente se necesitan. Por ejemplo, un servidor web, como por ejemplo NGINX o Apache, necesi-
+    tan tener acceso a la CPU, el disco duro... etc pero no deben tener acceso sobre la configuración del escritorio.
+
+
+    En cuanto a la diferencia entre una máquina virtual y un contenedor es que la máquina virtual simula un sistema operativo completo, mientras que el contenedor tra-
+    baja directamete con los recursos de la máquina. En el contenedor sólo debe haber el mínimo conjunto de elementos para que la aplicación funcione.
+
+    Dicho esto, los contenedores permiten (al menos en Docker y Podman) exponer además **solamente** los puertos de la aplicación sin tener que profundizar el tema de
+    redes
